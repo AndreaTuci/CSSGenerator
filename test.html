@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Lato"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="css/test.css">
+    <link rel="stylesheet"
+          href="base.css">
+    <title>Flex test page</title>
+</head>
+<body>
+<div class="container align-center">
+<div class="col-12 text-center items-center flex bg-danger-66"><p class="text bg-light">1/12</p></div>
+<div class="col-12 text-start items-end flex"><p class="text text-tertiary">1/12</p></div>
+<div class="col-12 text-end items-center flex"><p class="text">1/12</p></div>
+<div class="col-12 h-33 self-start"><p class="text bg-danger">1/12</p></div>
+<div class="col-12 h-50 self-center justify-center items-center flex bg-warning-50"><p class="text">1/12</p></div>
+<div class="col-12 bg-danger-33"><p class="text">1/12</p></div>
+<div class="col-6 h-66 self-end flex">
+    <div class="col-6 h-50 self-center items-center justify-center flex bg-secondary">
+        <p class="text">1/4</p>
+    </div>
+    <div class="col-6 h-50 self-center bg-primary-50">
+        <p>
+            <span class="text">p</span>
+            <span class="h5">h5</span>
+            <span class="h4">h4</span>
+            <span class="h3">h3</span>
+            <span class="h2">h2</span>
+            <span class="h1">h1</span>
+        </p>
+    </div>
+</div>
+
+</div>
+<div class="col flex items-center self-center justify-center">
+    <input type="button" class="btn btn-danger" value="input">
+</div>
+</body>
+</html>
